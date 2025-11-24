@@ -18,7 +18,7 @@ export default function Home() {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-6xl font-bold mb-6 drop-shadow-lg"
         >
-          <span className="text-blue-300">Learn More About </span><span className="text-green-300">The Handmaid's Tale</span>
+          <span className="text-blue-300">Learn More About </span><span className="text-green-300 italic">The Handmaid's Tale</span>
         </motion.h1>
 
         <motion.p
@@ -36,14 +36,14 @@ export default function Home() {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           <a
-            href="/triad"
-            className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-semibold px-6 py-3 rounded-full shadow-lg transition transform hover:scale-105"
+            href="/themes"
+            className="bg-white hover:bg-yellow-500 text-gray-900 font-semibold px-6 py-3 rounded-full shadow-lg transition transform hover:scale-105"
           >
             Dive deep into the heart of Gilead?
           </a>
         </motion.div>
       </section>
-
+      
       {/* Decorative wave at bottom */}
       <div className="w-full overflow-hidden leading-none">
         <svg

@@ -63,14 +63,11 @@ export default function Navbar() {
       >
         <div className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 flex flex-col px-6 py-4 space-y-3">
           {[
-            { href: "/triad", label: "CIA Triad" },
-            { href: "/datastates", label: "Data States" },
-            { href: "/auth", label: "Authentication" },
-            { href: "/passwords", label: "Passwords" },
-            { href: "/phishing", label: "Phishing" },
-            { href: "/sengin", label: "Social Engineering" },
-            { href: "/threats", label: "Potential Threats" },
-            { href: "/sources", label: "Sources" },
+            { href: "/themes", label: "Themes" },
+            { href: "/litdev", label: "Literary Devices" },
+            { href: "/history", label: "Historical Context"},
+            { href: "/religion", label: "Religious Connections" },
+            { href: "/author", label: "About the Author" },
           ].map((link) => (
             <Link
               key={link.href}
